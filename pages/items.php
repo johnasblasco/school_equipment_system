@@ -129,13 +129,20 @@
         },
         body: 'item_id=' + itemId
     })
-    .then(response => response.json())
+    .then(response => response.text())  // Get response as text
     .then(data => {
-        if (data.success) {
-            alert('Item borrowed successfully.');
-            location.reload(); // Reload the page to update the list
-        } else {
-            alert('There was an error borrowing the item.');
+        console.log(data); // Log the response to check what is returned
+        try {
+            const jsonData = JSON.parse(data); // Attempt to parse as JSON
+            if (jsonData.success) {
+                alert('Item borrowed successfully.');
+                location.reload(); // Reload the page to update the list
+            } else {
+                alert('There was an error borrowing the item: ' + jsonData.message);
+            }
+        } catch (e) {
+            console.error('Error parsing response:', e);
+            alert('There was an error processing the request.');
         }
     })
     .catch(error => {
@@ -143,8 +150,6 @@
         alert('There was an error.');
     });
 }
-
-
 
     </script>
 </body>

@@ -41,7 +41,7 @@
                                 $returned_items = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
                                 // Debugging: Check if there are any returned items
-                                var_dump($returned_items); // Display data to debug
+                               
                                 
                                 // Check if there are any returned items
                                 if (count($returned_items) > 0) {
