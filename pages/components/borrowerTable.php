@@ -10,7 +10,7 @@
                                                 Name</th>
                                             <th
                                                 class="px-6 py-3 text-xs font-medium leading-4 tracking-wider text-left text-gray-500 uppercase border-b border-gray-200 bg-gray-50">
-                                                Title</th>
+                                                Borrowed</th>
                                             <th
                                                 class="px-6 py-3 text-xs font-medium leading-4 tracking-wider text-left text-gray-500 uppercase border-b border-gray-200 bg-gray-50">
                                                 Status</th>
@@ -40,18 +40,18 @@
                                             </td>
     
                                             <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
-                                                <div class="text-sm leading-5 text-gray-900">Software Engineer</div>
+                                                <div class="text-sm leading-5 text-gray-900">Laptop</div>
                                                 <div class="text-sm leading-5 text-gray-500">Web dev</div>
                                             </td>
     
                                             <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
                                                 <span
-                                                    class="inline-flex px-2 text-xs font-semibold leading-5 text-green-800 bg-green-100 rounded-full">Active</span>
+                                                    class="inline-flex px-2 text-xs font-semibold leading-5 text-green-800 bg-green-100 rounded-full">Issued</span>
                                             </td>
     
                                             <td
                                                 class="px-6 py-4 text-sm leading-5 text-gray-500 whitespace-no-wrap border-b border-gray-200">
-                                                Owner</td>
+                                                Faculty</td>
     
                                             <td
                                                 class="px-6 py-4 text-sm font-medium leading-5 text-right whitespace-no-wrap border-b border-gray-200">
