@@ -12,7 +12,7 @@ include('../includes/db.php');
 </head>
 <body class="bg-white">
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
-    <div class="flex h-screen bg-gray-200">
+    <div x-data="{ sidebarOpen: false }" class="flex h-screen bg-gray-200">
         <!-- NAV BAR -->
         <?php include('../includes/navbar.php'); ?>
         <!-- END NAV BAR -->
