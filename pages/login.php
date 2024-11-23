@@ -103,6 +103,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       </script>
 </head>
 <body>
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 <section class="bg-[url('https://the-post-assets.sgp1.digitaloceanspaces.com/2022/03/CAMPUS-3-MARCH-23.png')] bg-cover bg-no-repeat bg-center">
     <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
         

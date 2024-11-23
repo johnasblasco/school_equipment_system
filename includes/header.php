@@ -97,7 +97,7 @@
                             style="display: none;">
                             <a href="../pages/editProfile.php"
                                 class="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-600 hover:text-white">Profile</a>
-                            <a href="#"
+                            <a href="../pages/items.php"
                                 class="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-600 hover:text-white">Items</a>
                             <a href="../index.php"
                                 class="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-600 hover:text-white">Logout</a>
